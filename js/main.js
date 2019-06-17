@@ -80,5 +80,6 @@ if (window.DeviceOrientationEvent) {
 		cubex = event.beta + 180;
 		cubey = event.gamma + 180;
 		cubez = event.alpha + 180;
+		rotCube(cubex, cubey, cubez);
 	}), 500);
 }
